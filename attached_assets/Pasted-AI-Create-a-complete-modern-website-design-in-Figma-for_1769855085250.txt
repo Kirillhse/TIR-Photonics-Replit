@@ -1,0 +1,51 @@
+AI
+Create a complete modern website design in Figma for a high-technology Russian company called "TIR Photonics" (ООО "ТИНФОТОНИКА") that develops and manufactures advanced photonic integrated circuits (PICs), optical chips including quantum ones, terahertz and infrared photonics devices: optical waveguides, Bragg gratings/filters, microring resonators, demultiplexers, modulators, on-chip spectrometers, and other photonic components for scientific experiments, research instruments, quantum technologies, sensing, and telecom applications.
+
+Target audience: scientists, researchers, R&D teams in universities & institutes, quantum tech companies, infrared/terahertz instrumentation manufacturers, defense & aerospace contractors.
+
+Overall style guidelines — premium scientific-tech aesthetic:
+• Color palette: deep navy blue (#0A1428 / #0F1C44) + electric cyan/teal accents (#00F0FF / #00D4E6) + bright white + subtle warm gray accents (#E0E7FF / #94A3B8) for scientific trust + small red/purple highlights for quantum emphasis
+• Typography: primary font — modern sans-serif like Inter or Roboto, headings — slightly futuristic/tech font like Manrope ExtraBold or Orbitron for hero
+• Very clean, spacious layout with lots of negative space, micro-animations feel (in Figma show hover states), glassmorphism / neumorphism subtle effects on cards
+• High-tech vibe: abstract photonics visualizations, light rays, waveguide illustrations, chip die shots, terahertz/infrared spectrum waves, quantum particle effects (but keep professional, not sci-fi cartoonish)
+• Fully responsive — desktop + tablet + mobile versions (show all 3 artboards per page)
+
+Website structure & pages to create (make 8–10 artboards total):
+
+1. Homepage (hero + sections)
+   - Hero section: large background with abstract photonic chip / waveguide glowing in cyan on dark background, huge headline "Advanced Photonic Integrated Circuits for Terahertz & Infrared" + sub "Custom & off-the-shelf optical chips: waveguides · Bragg filters · microring resonators · modulators · on-chip spectrometers", CTA buttons "Request quote" + "See products"
+   - Trust bar: "Developed in Russia • Used in leading research labs • Quantum & classical photonics"
+   - Key advantages section (3–4 cards): "Sub-micron precision", "Terahertz-ready designs", "Quantum chip expertise", "Fast prototyping"
+   - Products showcase carousel/grid: 6–8 teaser cards with chip photos / renderings + short name + "Learn more"
+   - "Our technologies" section with icons: Silicon photonics, III-V integration, Quantum dots, Lithography & etching
+   - Clients / partners logos section (placeholder logos: RAS institutes, Skoltech, MSU, etc.)
+   - Call-to-action banner: "Need a custom photonic solution? Contact our engineers"
+
+2. Products page
+   - Filterable grid or tabs: Waveguides, Bragg gratings, Microring resonators, Demultiplexers, Modulators, Spectrometers, Custom PICs
+   - Each product card: nice render/image, title, key specs (list 4–5), "Details" button
+
+3. Engineering Center / Capabilities page
+   - Sections: Design (CAD tools), Fabrication (lithography, etching, deposition), Testing & characterization, Packaging
+   - Timeline or process infographic: from idea → chip
+
+4. Team / About Us page
+   - Modern team grid (6–8 people placeholders): photo + name + position + short expertise
+   - Company story: founded in Moscow, focus on terahertz/infrared photonics, publications, patents
+
+5. Publications page
+   - Grid of scientific papers with title, authors, journal, year, DOI link placeholder
+
+6. Contacts page
+   - Moscow address: 29 Malaya Pirogovskaya str., 119435
+   - Phone +7(499) 246-6321, email info@tirphotonics.com
+   - Modern contact form: name, email, company, message + file upload for specs
+   - Embedded map of Moscow location
+
+7. Additional elements to include on multiple pages:
+   - Sticky dark navbar: Logo (text "TIR Photonics" + small photon wave icon) • Home • Products • Capabilities • Team • Publications • Contacts • RU/EN switcher
+   - Footer: address, phone, email, social links (placeholder), copyright 2026 ООО "ТИНФОТОНИКА"
+
+Make the design feel cutting-edge yet credible for B2B scientific customers — avoid cheap stock photos, use high-quality abstract tech visuals instead. Use plenty of subtle gradients, glow effects on interactive elements, and scientific icons (waveguides, chips, spectra). Desktop-first, then adapt to mobile.
+
+Generate all pages as separate artboards named clearly, add some hover/focus states on buttons and cards.
