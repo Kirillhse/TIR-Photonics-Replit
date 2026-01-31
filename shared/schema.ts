@@ -4,18 +4,18 @@ import { z } from "zod";
 
 export const products = pgTable("products", {
   id: serial("id").primaryKey(),
-  name: text("name").notNull(),
-  category: text("category").notNull(), // 'Waveguides', 'Bragg gratings', etc.
-  description: text("description").notNull(),
-  specs: jsonb("specs").$type<string[]>().notNull(), // Array of strings
+  name: jsonb("name").$type<{ en: string; ru: string }>().notNull(),
+  category: jsonb("category").$type<{ en: string; ru: string }>().notNull(),
+  description: jsonb("description").$type<{ en: string; ru: string }>().notNull(),
+  specs: jsonb("specs").$type<{ en: string[]; ru: string[] }>().notNull(),
   imageUrl: text("image_url").notNull(),
 });
 
 export const teamMembers = pgTable("team_members", {
   id: serial("id").primaryKey(),
-  name: text("name").notNull(),
-  role: text("role").notNull(),
-  expertise: text("expertise").notNull(),
+  name: jsonb("name").$type<{ en: string; ru: string }>().notNull(),
+  role: jsonb("role").$type<{ en: string; ru: string }>().notNull(),
+  expertise: jsonb("expertise").$type<{ en: string; ru: string }>().notNull(),
   imageUrl: text("image_url").notNull(),
 });
 
@@ -43,10 +43,7 @@ export const insertPublicationSchema = createInsertSchema(publications).omit({ i
 export const insertContactMessageSchema = createInsertSchema(contactMessages).omit({ id: true, createdAt: true });
 
 export type Product = typeof products.$inferSelect;
-export type InsertProduct = z.infer<typeof insertProductSchema>;
 export type TeamMember = typeof teamMembers.$inferSelect;
-export type InsertTeamMember = z.infer<typeof insertTeamMemberSchema>;
 export type Publication = typeof publications.$inferSelect;
-export type InsertPublication = z.infer<typeof insertPublicationSchema>;
 export type ContactMessage = typeof contactMessages.$inferSelect;
 export type InsertContactMessage = z.infer<typeof insertContactMessageSchema>;
